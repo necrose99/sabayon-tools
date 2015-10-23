@@ -4,12 +4,12 @@
   <repo quality="experimental" status="unofficial">
     <name><![CDATA[sabayon-atom]]></name>
     <description lang="en"><![CDATA[Brenton's Atom Overlay]]></description>
-    <homepage>https://github.com/fusion809/sabayon-atom</homepage>
+    <homepage>https://github.com/fusion809/sabayon-tools</homepage>
     <owner type="person">
       <email>brentonhorne77@gmail.com</email>
       <name><![CDATA[Brenton Horne]]></name>
     </owner>
-    <source type="git">git://github.com/fusion809/sabayon-atom.git</source>
-    <feed>https://github.com/fusion809/sabayon-atom/commits/master.atom</feed>
+    <source type="git">git://github.com/fusion809/sabayon-tools.git</source>
+    <feed>https://github.com/fusion809/sabayon-tools/commits/master.atom</feed>
   </repo>
 </repositories>
