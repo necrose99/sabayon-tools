@@ -1,5 +1,5 @@
 # sabayon-tools
-My Sabayon repository for Atom with ebuilds to install Atom from binary packages. To add this overlay run (as root):
+My Sabayon overlay. It was intended for Atom with ebuilds to install Atom from binary packages. To add this overlay run (as root):
 ```sh
 layman -o http://github.com/fusion809/sabayon-atom/raw/master/overlays.xml -f -a sabayon-atom
 emerge --sync && layman -S
