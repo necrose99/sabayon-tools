@@ -4,7 +4,7 @@ DESCRIPTION="Moksha 0.1.0 window manager"
 SRC_URI="https://github.com/JeffHoogland/moksha/archive/0.1.0.tar.gz"
 LICENSE="BSD-2"
 KEYWORDS="~amd64"
-SLOT="0.17/${PV%%_*}"
+SLOT="0.17"
 
 # The @ is just an anchor to expand from
 __EVRY_MODS=""
