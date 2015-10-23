@@ -1,3 +1,4 @@
+EAPI="5"
 inherit autotools enlightenment
 
 DESCRIPTION="Moksha 0.1.0 window manager"
