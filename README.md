@@ -3,7 +3,8 @@ My Sabayon repository for Atom with ebuilds to install Atom from binary packages
 ```sh
 emerge -av atom-bin-x.y.z.tbz2
 ```
+where `x.y.z` are, of course, replaced with the version of the package you downloaded. 
 
-Here it is:
+Here are the `.tbz2` file link(s) thus far:
 
 * [atom-bin-1.0.19.tbz2](https://www.dropbox.com/s/qmf8lar7l6reoip/atom-bin-1.0.19.tbz2?dl=0)
