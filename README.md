@@ -13,4 +13,4 @@ equo i -av <PACKAGE>.tbz2
 
 Here are the `.tbz2` file link(s) thus far:
 
-* [atom-bin-1.0.19.tbz2](https://www.dropbox.com/s/qmf8lar7l6reoip/atom-bin-1.0.19.tbz2?dl=1)
+* [atom-bin-1.0.19.tbz2](https://www.dropbox.com/s/022p859caksc8n5/app-editors%3Aatom-bin-1.0.19.6ed20337769926bee9f50a87cee36e3e04fb840b~9999.tbz2?dl=1)
