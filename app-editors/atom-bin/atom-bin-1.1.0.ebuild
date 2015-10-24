@@ -68,7 +68,7 @@ src_install() {
 	doins -r .
 
 	# Fixes permissions
-	fperms +x /usr/bin/atom
+	fperms +x /usr/bin/atom-beta
 	fperms +x /usr/share/${MY_PN}/${MY_PN}
 	fperms +x /usr/share/${MY_PN}/resources/app/atom.sh
 	fperms +x /usr/share/${MY_PN}/resources/app/apm/bin/apm
