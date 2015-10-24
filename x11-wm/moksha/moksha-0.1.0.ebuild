@@ -1,5 +1,5 @@
 EAPI=5
-inherit autotools enlightenment
+inherit enlightenment
 DESCRIPTION="Moksha 0.1.0 window manager"
 SRC_URI="https://github.com/JeffHoogland/moksha/archive/0.1.0.tar.gz"
 LICENSE="BSD-2"
