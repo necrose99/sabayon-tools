@@ -12,6 +12,7 @@ RDEPEND="
 	pam? ( sys-libs/pam )
 	|| ( >=dev-libs/efl-1.15.1 )
 	>=dev-libs/e_dbus-1.7.10
+	media-plugins/evas_generic_loaders
 	ukit? ( >=dev-libs/e_dbus-1.7.10[udev] )
 	x11-libs/xcb-util-keysyms"
 DEPEND="${RDEPEND}"
