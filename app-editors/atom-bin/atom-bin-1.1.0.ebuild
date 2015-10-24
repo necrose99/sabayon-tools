@@ -76,7 +76,7 @@ src_install() {
 	fperms +x /usr/share/atom-beta/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
 	fperms +x /usr/share/atom-beta/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
 
-	make_desktop_entry "/usr/bin/atom %U" "Atom" "atom" \
+	make_desktop_entry "/usr/bin/atom-beta %U" "Atom" "atom" \
 		"GNOME;GTK;Utility;TextEditor;Development;" \
 		"GenericName=Text Editor\nMimeType=text/plain;\nStartupNotify=true\nStartupWMClass=Atom"
 }
