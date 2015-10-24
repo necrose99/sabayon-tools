@@ -69,12 +69,12 @@ src_install() {
 
 	# Fixes permissions
 	fperms +x /usr/bin/atom-beta
-	fperms +x /usr/share/${MY_PN}/${MY_PN}
-	fperms +x /usr/share/${MY_PN}/resources/app/atom.sh
-	fperms +x /usr/share/${MY_PN}/resources/app/apm/bin/apm
-	fperms +x /usr/share/${MY_PN}/resources/app/apm/bin/node
-	fperms +x /usr/share/${MY_PN}/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
-	fperms +x /usr/share/${MY_PN}/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
+	fperms +x /usr/share/atom-beta/${MY_PN}
+	fperms +x /usr/share/atom-beta/resources/app/atom.sh
+	fperms +x /usr/share/atom-beta/resources/app/apm/bin/apm
+	fperms +x /usr/share/atom-beta/resources/app/apm/bin/node
+	fperms +x /usr/share/atom-beta/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
+	fperms +x /usr/share/atom-beta/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
 
 	make_desktop_entry "/usr/bin/atom %U" "Atom" "atom" \
 		"GNOME;GTK;Utility;TextEditor;Development;" \
