@@ -1,7 +1,7 @@
 EAPI=5
 inherit enlightenment
 DESCRIPTION="Moksha 0.1.0 window manager"
-SRC_URI="https://github.com/JeffHoogland/moksha/archive/0.1.0.tar.gz"
+SRC_URI="https://github.com/JeffHoogland/moksha/archive/${PV}.tar.gz"
 LICENSE="BSD-2"
 KEYWORDS="~amd64"
 SLOT="0.17"
@@ -18,14 +18,16 @@ DEPEND="${RDEPEND}"
 S=${WORKDIR}/${P%%_*}
 
 src_prepare() {
-		enlightenment_src_prepare
+	enlightenment_src_prepare
 }
 
 src_configure() {
+  su - fusion809
 	./autogen.sh --prefix=/usr
 }
 
 src_install() {
+  su - fusion809
 	make
 	sudo make install
 }
