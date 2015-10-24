@@ -27,7 +27,7 @@ IUSE="pam spell static-libs +udev ukit ${IUSE_E_MODULES}"
 
 RDEPEND="
 	pam? ( sys-libs/pam )
-	|| ( >=dev-libs/efl-1.8.4[X,eet,jpeg,png] >=dev-libs/efl-1.8.4[xcb,eet,jpeg,png] )
+	|| ( >=dev-libs/efl-1.8.4[X,eet] >=dev-libs/efl-1.8.4[xcb,eet] )
 	>=dev-libs/e_dbus-1.7.10
 	ukit? ( >=dev-libs/e_dbus-1.7.10[udev] )
 	x11-libs/xcb-util-keysyms"
