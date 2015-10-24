@@ -68,4 +68,5 @@ src_configure() {
 src_install() {
 	enlightenment_src_install
 	insinto /etc/moksha
+	newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
 }
