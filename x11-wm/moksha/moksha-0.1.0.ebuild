@@ -33,5 +33,7 @@ src_install() {
 	sudo make all install
   rm -r ~/.e/e
   cd /usr/share/enlightenment/data/config/default
-  wget -c $JEF/e.cfg $JEF/e_randr.cfg $JEF/exehist.cfg $JEF/module.battery.cfg $JEF/module.clock.cfg $JEF/module.conf.cfg $JEF/module.everything-apps.cfg $JEF/module.everything-files.cfg $JEF/module.everything.cfg $JEF/module.gadman.cfg $JEF/module.ibar.cfg $JEF/module.notification.cfg $JEF/module.pager.cfg $JEF/module.syscon.cfg $JEF/module.tasks.cfg
+  sudo wget -c $JEF/e.cfg $JEF/e_randr.cfg $JEF/exehist.cfg $JEF/module.battery.cfg $JEF/module.clock.cfg $JEF/module.conf.cfg $JEF/module.everything-apps.cfg $JEF/module.everything-files.cfg $JEF/module.everything.cfg $JEF/module.gadman.cfg $JEF/module.ibar.cfg $JEF/module.notification.cfg $JEF/module.pager.cfg $JEF/module.syscon.cfg $JEF/module.tasks.cfg
+  git clone https://github.com/JeffHoogland/MokshaRadiance
+  mv MokshaRadiance/MokshaRadiance ~/.e/e/themes/
 }
