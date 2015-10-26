@@ -1,6 +1,5 @@
 EAPI=5
 inherit autotools-utils
-EAPI=5
 
 if [[ ${PV} = 9999 ]]; then
 	inherit git-2
@@ -33,12 +32,6 @@ AUTOTOOLS_IN_SOURCE_BUILD=1
 DOCS=(AUTHORS ChangeLog README "Read me.txt" TODO)
 
 src_configure() {
-        local myeconfargs=(
-                $(use_enable debug)
-                $(use_with qt4)
-                $(use_enable threads multithreading)
-                $(use_with tiff)
-        )
         autotools-utils_src_configure
 }
 src_prepare() {
