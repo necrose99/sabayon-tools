@@ -6,7 +6,7 @@ if [[ ${PV} = 9999 ]]; then
 fi
 
 DESCRIPTION="Moksha  window manager a fork of Enlightenment 17 with fixes"
-HOMEPAGE="https://github.com/vivien/i3blocks"
+HOMEPAGE="https://github.com/JeffHoogland/moksha"
 if [[ ${PV} = 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/JeffHoogland/${PN}.git"
 	EGIT_BOOTSTRAP=""
