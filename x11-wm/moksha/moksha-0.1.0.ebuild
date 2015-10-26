@@ -18,6 +18,8 @@ DEPEND="${RDEPEND}"
 S=${WORKDIR}/${P%%_*}
 
 src_prepare() {
+	sed -i "s:1.7.10:1.7.9:g" configure.ac
+	eautoreconf
 	epatch "${FILESDIR}"/quickstart.diff
 	enlightenment_src_prepare
 }
