@@ -20,7 +20,7 @@ fi
 SLOT="0"
 IUSE="pam spell static-libs +udev ukit ${IUSE_E_MODULES}"
 S=${WORKDIR}/${P%%_*}
-# add normal Depends atoms. To Do... 
+# add normal Depends atoms. To Do...
 RDEPEND="
   >=dev-libs/efl-1.15.1
 	>=dev-libs/e_dbus-1.7.10
@@ -57,6 +57,5 @@ src_install() {
         if use examples; then
                 dobin "${BUILD_DIR}"/usr/bin/moksha/ \
                 newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
-                        || die 'dobin moksha failed'
         fi
 }

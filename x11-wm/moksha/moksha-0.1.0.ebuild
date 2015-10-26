@@ -3,7 +3,7 @@ inherit enlightenment
 DESCRIPTION="Moksha 0.1.0 window manager"
 SRC_URI="https://github.com/JeffHoogland/moksha/archive/${PV}.tar.gz"
 LICENSE="BSD-2"
-KEYWORDS="~amd64"
+KEYWORDS="~x86 ~amd64"
 SLOT="0.17"
 
 IUSE="pam spell static-libs +udev ukit ${IUSE_E_MODULES}"
