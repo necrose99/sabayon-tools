@@ -22,10 +22,11 @@ src_prepare() {
 }
 
 src_configure() {
-	./autogen.sh --prefix=/usr
+	enlightenment_src_configure
 }
 
 src_install() {
-	make
-	sudo make all install
+	enlightenment_src_install
+	insinto /etc/enlightenment
+	newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
 }
