@@ -18,6 +18,7 @@ DEPEND="${RDEPEND}"
 S=${WORKDIR}/${P%%_*}
 
 src_prepare() {
+	epatch "${FILESDIR}"/quickstart.diff
 	enlightenment_src_prepare
 }
 
