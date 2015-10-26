@@ -41,7 +41,6 @@ src_prepare() {
 }
 src_compile() {
         autotools-utils_src_compile
-        use doc && autotools-utils_src_compile docs
 }
 
 src_install() {
