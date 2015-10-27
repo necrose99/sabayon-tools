@@ -29,7 +29,7 @@ src_configure() {
 }
 
 src_install() {
-	enlightenment_src_install
+	V=1 emake install DESTDIR="${D}"
 	insinto /etc/enlightenment
 	newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
 }
