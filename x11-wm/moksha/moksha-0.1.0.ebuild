@@ -29,7 +29,7 @@ src_configure() {
 }
 
 src_install() {
-  make && sudo make all install DESTDIR=${D}
+  make && make install DESTDIR=${D}
 	insinto /etc/enlightenment
 	newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
 }
