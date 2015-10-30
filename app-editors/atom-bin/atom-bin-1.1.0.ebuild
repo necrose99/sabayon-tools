@@ -11,7 +11,7 @@ DESCRIPTION="A hackable text editor for the 21st Century."
 HOMEPAGE="https://atom.io"
 SRC_URI="https://github.com/atom/atom/releases/download/v${PV}/atom-amd64.deb -> atom-amd64-${PV}.deb"
 
-RESTRICT="primaryuri mirror"
+RESTRICT="mirror"
 
 KEYWORDS="~amd64"
 SLOT="0"
