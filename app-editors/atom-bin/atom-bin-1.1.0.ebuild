@@ -11,7 +11,7 @@ DESCRIPTION="A hackable text editor for the 21st Century."
 HOMEPAGE="https://atom.io"
 SRC_URI="https://github.com/atom/atom/releases/download/v${PV}/atom-amd64.deb -> atom-amd64-${PV}.deb"
 
-RESTRICT="primaryuri mirror"
+RESTRICT="mirror"
 
 KEYWORDS="~amd64"
 SLOT="0"
@@ -68,15 +68,15 @@ src_install() {
 	doins -r .
 
 	# Fixes permissions
-	fperms +x /usr/bin/atom-beta
-	fperms +x /usr/share/atom-beta/${MY_PN}
-	fperms +x /usr/share/atom-beta/resources/app/atom.sh
-	fperms +x /usr/share/atom-beta/resources/app/apm/bin/apm
-	fperms +x /usr/share/atom-beta/resources/app/apm/bin/node
-	fperms +x /usr/share/atom-beta/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
-	fperms +x /usr/share/atom-beta/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
+	fperms +x /usr/bin/atom
+	fperms +x /usr/share/atom/${MY_PN}
+	fperms +x /usr/share/atom/resources/app/atom.sh
+	fperms +x /usr/share/atom/resources/app/apm/bin/apm
+	fperms +x /usr/share/atom/resources/app/apm/bin/node
+	fperms +x /usr/share/atom/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
+	fperms +x /usr/share/atom/resources/app.asar.unpacked/node_modules/symbols-view/vendor/ctags-linux
 
-	make_desktop_entry "/usr/bin/atom-beta %U" "Atom" "atom" \
+	make_desktop_entry "/usr/bin/atom %U" "Atom" "atom" \
 		"GNOME;GTK;Utility;TextEditor;Development;" \
 		"GenericName=Text Editor\nMimeType=text/plain;\nStartupNotify=true\nStartupWMClass=Atom"
 }
