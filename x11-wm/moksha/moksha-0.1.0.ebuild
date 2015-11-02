@@ -1,5 +1,4 @@
-EAPI=5
-inherit enlightenment
+EAPI=1
 DESCRIPTION="Moksha 0.1.0 window manager"
 SRC_URI="https://github.com/JeffHoogland/moksha/archive/${PV}.tar.gz"
 LICENSE="BSD-2"
@@ -17,19 +16,12 @@ DEPEND="${RDEPEND}"
 
 S=${WORKDIR}/${P%%_*}
 
-src_prepare() {
-	sed -i "s:1.7.10:1.7.9:g" configure.ac
-	eautoreconf
-	epatch "${FILESDIR}"/quickstart.diff
-	enlightenment_src_prepare
-}
-
 src_configure() {
-	enlightenment_src_configure
+	./autogen.sh --prefix=/usr
 }
 
 src_install() {
-  make && make install DESTDIR=${D}
+  	make && make install DESTDIR=${D}
 	insinto /etc/enlightenment
 	newins "${FILESDIR}"/gentoo-sysactions.conf sysactions.conf
 }
