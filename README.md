@@ -24,3 +24,6 @@ Here are the `.tbz2` file link(s) thus far:
 [atom-bin-1.1.0.tbz2](https://www.dropbox.com/s/x2dmt5ie7sgg0uw/app-editors%3Aatom-bin-1.1.0.6a4dc163e1570d16b870309b9ef585881d12aa16~9999.tbz2?dl=1) 
 (61.0 MB download, takes up 207.1 MB when 
 installed)
+
+# Moksha
+moksha.sh should, if run, install Moksha for you. 
