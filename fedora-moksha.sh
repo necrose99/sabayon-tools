@@ -1,7 +1,5 @@
 # Get the dependencies
-sudo equo i dev-libs/efl evas_generic_loaders wget subversion base-gcc gcc libstdc++
-sudo equo i -o x11-wm/enlightenment:0.17
-sudo emerge =dev-libs/e_dbus-1.7.10
+sudo dnf install efl evas_generic_loaders wget subversion gcc gcc-c++ e_dbus
 # Get the source code
 MOK=https://github.com/JeffHoogland/moksha/archive
 wget -cqO- $MARCH/0.1.0.tar.gz | tar xz --transform=s/moksha-0.1.0/moksha/
