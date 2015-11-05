@@ -27,3 +27,5 @@ installed)
 
 # Moksha
 moksha.sh should, if run, install Moksha for you. 
+[Here](https://www.dropbox.com/s/8lnzq5gkqidfrel/x11-wm%3Amoksha-bin-0.1.0.15a03e64e9c36785edd726576bca580d373e9591~9999.tbz2?dl=1) is the `.tbz2` file I have 
+generated for Moksha. 
