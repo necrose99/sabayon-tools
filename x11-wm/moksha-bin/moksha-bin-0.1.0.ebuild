@@ -17,7 +17,7 @@ IUSE=""
 DEPEND=">=dev-libs/efl-1.15.1
       >=dev-libs/e_dbus-1.7.10
       >=media-libs/elementary-1.5.1
-      media-libs/evas_generic_loaders
+      media-plugins/evas_generic_loaders
       x11-libs/xcb-util-keysyms"
 
 RDEPEND="${DEPEND}
