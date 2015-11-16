@@ -1,7 +1,7 @@
 # sabayon-tools
 My Sabayon overlay. It was originally intended for Atom with ebuilds to install Atom from binary packages. It has since been expanded to include extra packages. To add this overlay run (as root):
 ```sh
-layman -o http://github.com/fusion809/sabayon-atom/raw/master/overlays.xml -f -a sabayon-atom
+layman -o http://github.com/fusion809/sabayon-tools/raw/master/overlays.xml -f -a sabayon-tools
 ```
 Using these tools I also build a `.tbz2` package that I upload to my dropbox. You can install these packages, after you download them, of course, by running (as root):
 ```sh
