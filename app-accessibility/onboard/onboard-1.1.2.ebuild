@@ -1,4 +1,6 @@
-# For copyright see COPYRIGHT file in lif overlay root directory.
+# Copyright 2014-2015 Igor Savlook <agentsmith.hengsha.city@gmail.com>
+# Distributed under the terms of the GNU General Public License v3
+# Copyright 2015 Brenton Horne <brentonhorne77@gmail.com>
 
 EAPI="5"
 
