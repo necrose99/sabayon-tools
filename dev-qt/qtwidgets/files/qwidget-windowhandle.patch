@@ -1,6 +1,5 @@
 X-Git-Url: https://codereview.qt-project.org/gitweb?p=qt%2Fqtbase.git;a=commitdiff_plain;h=5ea44d1d516f0c68a6793279df5c1569ef9fadd2
-diff --git a/src/widgets/kernel/qwidget.cpp
-b/src/widgets/kernel/qwidget.cpp
+diff --git a/src/widgets/kernel/qwidget.cpp b/src/widgets/kernel/qwidget.cpp
 index a006246..024005d 100644
 --- a/src/widgets/kernel/qwidget.cpp
 +++ b/src/widgets/kernel/qwidget.cpp
