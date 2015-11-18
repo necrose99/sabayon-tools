@@ -11,8 +11,7 @@ equo i -av <PACKAGE>.tbz2
 
 Here are the `.tbz2` file link(s) thus far:
 
-*
-[atom-bin-1.2.1.tbz2](https://www.dropbox.com/s/4odytfkx8u75qlj/app-editors%3Aatom-bin-1.2.1.3803900e2dd562e6c111293e5630cb36b2a53c3d~9999.tbz2?dl=1)
+* [atom-bin-1.2.1.tbz2](https://www.dropbox.com/s/4odytfkx8u75qlj/app-editors%3Aatom-bin-1.2.1.3803900e2dd562e6c111293e5630cb36b2a53c3d~9999.tbz2?dl=1)
 
 # Moksha
 moksha.sh should, if run, install Moksha for you.
