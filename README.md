@@ -12,19 +12,17 @@ equo i -av <PACKAGE>.tbz2
 Here are the `.tbz2` file link(s) thus far:
 
 *
-[atom-bin-1.0.19.tbz2](https://www.dropbox.com/s/022p859caksc8n5/app-editors%3Aatom-bin-1.0.19.6ed20337769926bee9f50a87cee36e3e04fb840b~9999.tbz2?dl=1)
-(59.4 MB download, takes up 196.2 MB when installed)
-*
-[atom-bin-1.1.0-beta1.tbz2](https://www.dropbox.com/s/yln1351x978ffo9/app-editors%3Aatom-bin-1.1.0.27c276d62c35ce203f4a1a8e1c48f9d869e8eec9~9999.tbz2?dl=1)
-(61.1 MB download, takes up 207.2 MB when installed)
-*
-[atom-bin-1.1.0.tbz2](https://www.dropbox.com/s/x2dmt5ie7sgg0uw/app-editors%3Aatom-bin-1.1.0.6a4dc163e1570d16b870309b9ef585881d12aa16~9999.tbz2?dl=1)
-(61.0 MB download, takes up 207.1 MB when
-installed)
+[atom-bin-1.2.1.tbz2](https://www.dropbox.com/s/4odytfkx8u75qlj/app-editors%3Aatom-bin-1.2.1.3803900e2dd562e6c111293e5630cb36b2a53c3d~9999.tbz2?dl=1)
 
 # Moksha
 moksha.sh should, if run, install Moksha for you.
 [Here](https://www.dropbox.com/s/8lnzq5gkqidfrel/x11-wm%3Amoksha-bin-0.1.0.15a03e64e9c36785edd726576bca580d373e9591~9999.tbz2?dl=1) is the `.tbz2` file I have generated for x11-wm/moksha-bin-0.1.0.
 
+# qBittorrent (not included in the overlay)
+An Entropy `.tbz2` [binary](https://www.dropbox.com/s/m6s31xb8rial0gv/net-p2p%3Aqbittorrent-3.2.4.9dc4fee2f9dbf7b236cc307aa918bc803b8cdad5~9999.tbz2?dl=1) for qBittorrent 3.2.4 exists in my Dropbox.
+
 # Scilab
 [Here](https://www.dropbox.com/s/yvchmmmh7p9xr4t/sci-mathematics%3Ascilab-bin-5.5.2.5b475dc664c2b92996a1ea93d1d9311582acc19c~9999.tbz2?dl=1) is the `.tbz2` file I have generated for sci-mathematics/scilab-bin-5.5.2.
+
+# Unix RuneScape Client
+[Here](https://www.dropbox.com/s/vs3j3928jj7mil4/games-rpg%3Aunix-runescape-client-4.3.4.2058d145e7f2676d8e00a98be6f6cae8665568b4~9999.tbz2?dl=1) is the binary for RSU 4.3.4, while [here](https://www.dropbox.com/s/kn5cgn9eu69sc2g/games-rpg%3Aunix-runescape-client-4.3.5.29eacce023501ebb137ffc45952095220e909dc4~9999.tbz2?dl=1) is the binary for 4.3.5.
