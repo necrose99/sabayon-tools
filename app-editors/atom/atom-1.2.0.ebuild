@@ -1,11 +1,11 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
 PYTHON_COMPAT=( python2_7 )
-inherit git-r3 flag-o-matic python-any-r1 eutils 
+inherit git-r3 flag-o-matic python-any-r1 eutils
 
 DESCRIPTION="A hackable text editor for the 21st Century"
 HOMEPAGE="https://atom.io"
@@ -54,23 +54,23 @@ src_prepare(){
 		resources/linux/atom.desktop.in > resources/linux/Atom.desktop
 
     	# Fix atom location guessing
-	sed -i -e 
-'s/ATOM_PATH="$USR_DIRECTORY\/share\/atom/ATOM_PATH="$USR_DIRECTORY\/../g' 
+	sed -i -e
+'s/ATOM_PATH="$USR_DIRECTORY\/share\/atom/ATOM_PATH="$USR_DIRECTORY\/../g'
 \
 		./atom.sh \
 		|| die "Fail fixing atom-shell directory"
 
 	# Make bootstrap process more verbose
-	sed -i -e 's@node script/bootstrap@node script/bootstrap 
+	sed -i -e 's@node script/bootstrap@node script/bootstrap
 --no-quiet@g' \
 		./script/build \
 		|| die "Fail fixing verbosity of script/build"
 }
 
 src_compile(){
-	./script/build --verbose --build-dir "${T}" || die "Failed to 
+	./script/build --verbose --build-dir "${T}" || die "Failed to
 compile"
-	"${T}/Atom/resources/app/apm/bin/apm" rebuild || die "Failed to 
+	"${T}/Atom/resources/app/apm/bin/apm" rebuild || die "Failed to
 rebuild native module"
 	echo "python = $PYTHON" >> "${T}/Atom/resources/app/apm/.apmrc"
 }
@@ -92,11 +92,11 @@ src_install(){
 	fperms +x ${EPREFIX}/usr/share/${PN}/resources/app/atom.sh
 	fperms +x ${EPREFIX}/usr/share/${PN}/resources/app/apm/bin/apm
 	fperms +x ${EPREFIX}/usr/share/${PN}/resources/app/apm/bin/node
-	fperms +x 
+	fperms +x
 ${EPREFIX}/usr/share/${PN}/resources/app/apm/node_modules/npm/bin/node-gyp-bin/node-gyp
 	# Symlinking to /usr/bin
-	dosym ${EPREFIX}/usr/share/${PN}/resources/app/atom.sh 
+	dosym ${EPREFIX}/usr/share/${PN}/resources/app/atom.sh
 /usr/bin/atom
-	dosym ${EPREFIX}/usr/share/${PN}/resources/app/apm/bin/apm 
+	dosym ${EPREFIX}/usr/share/${PN}/resources/app/apm/bin/apm
 /usr/bin/apm
 }
