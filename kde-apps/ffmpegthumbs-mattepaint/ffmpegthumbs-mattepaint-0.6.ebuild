@@ -16,7 +16,7 @@ LICENSE="GPL-2"
 
 DEPEND="
 	kde-apps/dolphin
-	media-video/ffmpeg
+	media-video/libav
 	dev-util/cmake
 "
 
